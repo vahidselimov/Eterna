@@ -1,0 +1,192 @@
+header {
+    .container {
+        .row {
+
+            background-color: rgb(62, 60, 60);
+            padding: 10px;
+
+            .contact {
+                color: white;
+
+                i {
+                    color: orangered;
+                }
+            }
+
+            .phone {
+                margin-left: 15px;
+            }
+
+            .socialmedias {
+                i {
+
+
+
+                    font-size: 20px;
+                    padding-left: 10px;
+                    color: rgb(158, 154, 154);
+                }
+            }
+
+        }
+
+        .eterna {
+            margin-top: 20px;
+
+            .navbar {
+                ul {
+
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+
+                        li {
+                            color: black;
+                            padding-left: 20px;
+
+
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+    }
+}
+
+main {
+    .brand {
+        margin-top: 20px;
+        background-color: rgb(241, 238, 238);
+
+        
+    }
+
+    .services {
+        .container {
+            .row {
+
+                .col-lg-4 {
+                    .box {
+                        border: 1px solid rgb(184, 184, 184);
+                        flex-direction: column;
+                    }
+
+
+                    .text {
+                        text-align: center;
+                        margin-top: 30px;
+                    }
+                }
+
+                .icon {
+                    text-align: center;
+                    margin-top: 30px;
+
+                    i {
+                        border: 20px solid red;
+                        background-color: red;
+                        font-size: 25px;
+                        color: rgb(255, 255, 255);
+
+
+                    }
+                }
+
+                .box:hover {
+                    transition: 0.5s;
+                    background-color: red;
+
+                    .text:hover {
+                        color: white;
+
+                        .icon:hover {
+                            i:hover {
+                                border: 20px solid white;
+                                background-color: white;
+                                color: red;
+
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .skills {
+        .our {
+
+            margin-top: 20px;
+            text-align: center;
+
+
+        }
+
+
+        .our::after {
+            content: "";
+
+
+            height: 5px;
+            width: 100px;
+            background-color: rgb(214, 0, 0);
+            margin-left: 710px;
+            display: block;
+
+
+
+        }
+
+        .magnam {
+            margin-top: 40px;
+            width: 90%;
+            text-align: center;
+
+        }
+
+        .container {
+            .row {
+                .image {
+                    img {
+                        width: 600px;
+                        height: 600px;
+                    }
+
+
+                }
+
+
+
+            }
+
+            .name {
+                margin-top: 40px;
+            }
+
+            .interest {
+                display: flex;
+                justify-content: end;
+
+
+
+            }
+        }
+
+        .progress {
+            margin: 50px 0 0 0;
+
+            .progress-bar {
+                background-color: orangered;
+            }
+
+
+
+
+        }
+    }
+}

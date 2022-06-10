@@ -1,0 +1,132 @@
+header .container .row {
+  background-color: #3e3c3c;
+  padding: 10px;
+}
+
+header .container .row .contact {
+  color: white;
+}
+
+header .container .row .contact i {
+  color: orangered;
+}
+
+header .container .row .phone {
+  margin-left: 15px;
+}
+
+header .container .row .socialmedias i {
+  font-size: 20px;
+  padding-left: 10px;
+  color: #9e9a9a;
+}
+
+header .container .eterna {
+  margin-top: 20px;
+}
+
+header .container .eterna .navbar ul {
+  list-style: none;
+}
+
+header .container .eterna .navbar ul a {
+  text-decoration: none;
+}
+
+header .container .eterna .navbar ul a li {
+  color: black;
+  padding-left: 20px;
+}
+
+main .brand {
+  margin-top: 20px;
+  background-color: #f1eeee;
+}
+
+main .services .container .row .col-lg-4 .box {
+  border: 1px solid #b8b8b8;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .services .container .row .col-lg-4 .text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+main .services .container .row .icon {
+  text-align: center;
+  margin-top: 30px;
+}
+
+main .services .container .row .icon i {
+  border: 20px solid red;
+  background-color: red;
+  font-size: 25px;
+  color: white;
+}
+
+main .services .container .row .box:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: red;
+}
+
+main .services .container .row .box:hover .text:hover {
+  color: white;
+}
+
+main .services .container .row .box:hover .text:hover .icon:hover i:hover {
+  border: 20px solid white;
+  background-color: white;
+  color: red;
+}
+
+main .skills .our {
+  margin-top: 20px;
+  text-align: center;
+}
+
+main .skills .our::after {
+  content: "";
+  height: 5px;
+  width: 100px;
+  background-color: #d60000;
+  margin-left: 710px;
+  display: block;
+}
+
+main .skills .magnam {
+  margin-top: 40px;
+  width: 90%;
+  text-align: center;
+}
+
+main .skills .container .row .image img {
+  width: 600px;
+  height: 600px;
+}
+
+main .skills .container .name {
+  margin-top: 40px;
+}
+
+main .skills .container .interest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+main .skills .progress {
+  margin: 50px 0 0 0;
+}
+
+main .skills .progress .progress-bar {
+  background-color: orangered;
+}
+/*# sourceMappingURL=index.css.map */
